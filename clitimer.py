@@ -5,18 +5,8 @@ import sys
 cliinput = ""
 
 def config():
-	if "--silent" in sys.argv:
-		silent = True
-		print("Silent")
-	elif "--silent" in cliinput:
-		silent = True
-		print("Silent")
-	elif "-s" in sys.argv:
-		silent = True
-		print("Silent")
-	elif "-s" in cliinput:
-		silent = True
-		print("Silent")
+	if "--silent", "-s" in cliinput:
+		print("WHEEEEE")
 	elif "--count" in sys.argv:
 		print("Counting something")
 	elif "--count" in cliinput:
