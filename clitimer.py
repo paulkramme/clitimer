@@ -2,6 +2,7 @@
 import time
 import sys
 
+<<<<<<< HEAD
 silent = None
 timeinput = 0
 einheit = ""
@@ -33,6 +34,10 @@ def setup():
         print("Something went wrong.")
     timer()
 
+=======
+cliinput = ""
+def setup():
+>>>>>>> master
 
 def config():
     if "--silent" in sys.argv:
@@ -54,4 +59,10 @@ def main():
 
 
 if __name__ == __name__:
+<<<<<<< HEAD
     main()
+=======
+	main()
+else:
+	print("No Lib")
+>>>>>>> master
