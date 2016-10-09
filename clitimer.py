@@ -3,6 +3,7 @@ import time
 import sys
 
 cliinput = ""
+def setup():
 
 def config():
 	if "--silent" in sys.argv:
@@ -37,4 +38,4 @@ def main():
 if __name__ == __name__:
 	main()
 else:
-	print("This is not a lib")
+	print("No Lib")
