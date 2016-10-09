@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import time
-import sys
 import argparse
 
 parser = argparse.ArgumentParser("Simple CLI Counter")
@@ -8,3 +7,4 @@ parser.add_argument("time", metavar="T", type=int, nargs=1, help="Time when the 
 
 args = parser.parse_args()
 print(args)
+
