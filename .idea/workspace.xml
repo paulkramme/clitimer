@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a85a0981-b65a-4445-b7b5-aff21b0dea18" name="Default" comment="" />
+    <list default="true" id="a85a0981-b65a-4445-b7b5-aff21b0dea18" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/clitimer.iml" afterPath="$PROJECT_DIR$/.idea/clitimer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="clitimer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,9 +41,6 @@
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="e#19#30#0" expanded="true" />
-                <marker date="1476031014040" expanded="true" signature="365:647" ph="..." />
-                <marker date="1476031014040" expanded="true" signature="663:998" ph="..." />
-                <marker date="1476031014040" expanded="true" signature="879:998" ph="..." />
               </folding>
             </state>
           </provider>
@@ -109,10 +110,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.9 (/usr/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -337,9 +334,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#19#30#0" expanded="true" />
-            <marker date="1476031014040" expanded="true" signature="365:647" ph="..." />
-            <marker date="1476031014040" expanded="true" signature="663:998" ph="..." />
-            <marker date="1476031014040" expanded="true" signature="879:998" ph="..." />
           </folding>
         </state>
       </provider>
@@ -366,9 +360,6 @@
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#19#30#0" expanded="true" />
-            <marker date="1476031014040" expanded="true" signature="365:647" ph="..." />
-            <marker date="1476031014040" expanded="true" signature="663:998" ph="..." />
-            <marker date="1476031014040" expanded="true" signature="879:998" ph="..." />
           </folding>
         </state>
       </provider>
