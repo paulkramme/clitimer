@@ -9,7 +9,7 @@ einheit = ""
 
 def help():
     print("Usage: " + sys.argv[0] + "time einheit [args]")
-    print("--silent or -s for silentmode")
+    print("--silent or -s for silent mode")
     print("--help or -h for help")
     print("Happy timing...")
 
