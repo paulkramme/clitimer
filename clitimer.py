@@ -3,8 +3,8 @@ import time
 import sys
 
 silent = None
-time = None
-einheit = None
+timeinput = 0
+einheit = ""
 
 
 def help():
@@ -14,8 +14,24 @@ def help():
     print("Happy timing...")
 
 
+def timer():
+    print(timeinput)
+    time.sleep(timeinput)
+    print("COMPLETED!")
+
+
 def setup():
-    print("setup")
+    if einheit == "Seconds":
+        pass
+    elif einheit == "Minutes":
+        timeinput /= 60
+    elif einheit == "Hours":
+        timeinput /= (60 * 60)
+    elif einheit == "Days":
+        timeinput /= (60 * 60 * 24)
+    else:
+        print("Something went wrong.")
+    timer()
 
 
 def config():
@@ -27,9 +43,10 @@ def config():
     if sys.argv[1] == "-h" or sys.argv[1] == "--help":
         help()
     else:
-        time = sys.argv[1]
+        timeinput = float(sys.argv[1])
         einheit = sys.argv[2]
-        print(time, einheit)
+        print(timeinput, einheit)
+        setup()
 
 
 def main():
