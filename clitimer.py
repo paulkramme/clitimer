@@ -56,3 +56,5 @@ def main():
 
 if __name__ == __name__:
     main()
+else:
+    print("Not a lib yet...")
