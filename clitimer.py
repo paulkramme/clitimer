@@ -16,7 +16,7 @@ def help():
 
 def timer():
     print(timeinput)
-    time.sleep(timeinput)
+    time.sleep(float(timeinput))
     print("COMPLETED!")
 
 
@@ -24,14 +24,14 @@ def setup():
     if einheit == "Seconds":
         pass
     elif einheit == "Minutes":
-        timeinput /= 60
+        timeinput *= 60
     elif einheit == "Hours":
-        timeinput /= (60 * 60)
+        timeinput *= (60 * 60)
     elif einheit == "Days":
-        timeinput /= (60 * 60 * 24)
+        timeinput *= (60 * 60 * 24)
     else:
         print("Something went wrong.")
-    timer()
+        timer()
 
 
 def config():
@@ -43,13 +43,14 @@ def config():
     if sys.argv[1] == "-h" or sys.argv[1] == "--help":
         help()
     else:
-        timeinput = float(sys.argv[1])
+        timeinput = int(sys.argv[1])
         einheit = sys.argv[2]
         print(timeinput, einheit)
         setup()
 
 
 def main():
+    print(sys.argv)
     config()
 
 
