@@ -1,10 +1,13 @@
 #!/usr/bin/env python3.5
+
 import time
 import sys
+
 
 silent = None
 timeinput = 0
 einheit = ''
+
 
 def help():
     print("Usage: " + sys.argv[0] + "time einheit [args]")
@@ -39,6 +42,7 @@ def setup():
         print("Timeinput", timeinput)
         print("Einheit", einheit)
 
+
 def config():
     global timeinput
     global einheit
@@ -58,9 +62,10 @@ def config():
 
 def main():
     print("Timer by Paul Kramme")
-    #print(sys.argv)
     config()
 
 
 if __name__ == __name__:
     main()
+else:
+    print("Not a lib yet.")
