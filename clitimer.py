@@ -28,11 +28,11 @@ import sys
 
 silent = None
 timeinput = 0
-einheit = ''
+unit = ''
 
 
 def help():
-    print("Usage: " + sys.argv[0] + "time einheit [args]")
+    print("Usage: " + sys.argv[0] + "time unit [args]")
     print("--silent or -s for silent mode")
     print("--help or -h for help")
     print("Happy timing...")
@@ -40,34 +40,34 @@ def help():
 
 def timer():
     global timeinput
-    print("Your Settings:", timeinput, einheit)
+    print("Your Settings:", timeinput, unit)
     time.sleep(float(timeinput))
     print("COMPLETED!")
 
 
 def setup():
     global timeinput
-    global einheit
-    if einheit == "Seconds":
+    global unit
+    if unit == "Seconds":
         timer()
-    elif einheit == "Minutes":
+    elif unit == "Minutes":
         timeinput *= 60
         timer()
-    elif einheit == "Hours":
+    elif unit == "Hours":
         timeinput *= (60 * 60)
         timer()
-    elif einheit == "Days":
+    elif unit == "Days":
         timeinput *= (60 * 60 * 24)
         timer()
     else:
         print("Something went wrong in setup function.")
         print("Timeinput", timeinput)
-        print("Einheit", einheit)
+        print("unit", unit)
 
 
 def config():
     global timeinput
-    global einheit
+    global unit
     if "--silent" in sys.argv:
         silent = True
         print("Silent Activated")
@@ -77,8 +77,8 @@ def config():
         help()
     else:
         timeinput = int(sys.argv[1])
-        einheit = sys.argv[2]
-        #print(timeinput, einheit)
+        unit = sys.argv[2]
+        #print(timeinput, unit)
         setup()
 
 
