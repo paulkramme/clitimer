@@ -41,7 +41,7 @@ def help():
 
 def timer():
     global timeinput
-    print("Your Settings:", timeinput, unit)
+    print("Your Settings:", timeinput, "Seconds")
     time.sleep(float(timeinput))
     print("COMPLETED!")
 
