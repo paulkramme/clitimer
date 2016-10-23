@@ -104,7 +104,7 @@ def main():
 
 def winmain():
     print("Launching Windows Console...")
-    config()
+    winconfig()
 
 
 if __name__ == __name__:
