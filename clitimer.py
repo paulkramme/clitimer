@@ -42,7 +42,12 @@ def help():
 def timer():
     global timeinput
     print("Your Settings:", timeinput, "Seconds")
-    time.sleep(float(timeinput))
+    #time.sleep(float(timeinput))
+    while timeinput:
+        print("Time left in seconds:", timeinput)
+        time.sleep(1)
+        #print(timeinput)
+        timeinput = timeinput - 1
     print("COMPLETED!")
 
 
