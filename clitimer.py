@@ -92,8 +92,13 @@ def main():
     print("Timer by Paul Kramme")
     config()
 
+def winmain():
+    print("WIP")
 
 if __name__ == __name__:
-    main()
+    if os.name == "posix":
+        main()
+    else:
+        winmain()
 else:
     print("Not a lib yet.")
