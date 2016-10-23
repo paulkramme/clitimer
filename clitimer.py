@@ -92,7 +92,7 @@ def config():
 def winconfig():
     global timeinput
     global unit
-    timeinput = input("Time to count to: ")
+    timeinput = int(input("Time to count to: "))
     unit = input("Minutes/Seconds/Days/Hours: ")
     setup()
 
