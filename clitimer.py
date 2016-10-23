@@ -88,12 +88,23 @@ def config():
         setup()
 
 
+def winconfig():
+    global timeinput
+    global unit
+    timeinput = input("Time to count to: ")
+    unit = input("Minutes/Seconds/Days/Hours: ")
+    setup()
+
+
 def main():
     print("Timer by Paul Kramme")
     config()
 
+
 def winmain():
-    print("WIP")
+    print("Launching Windows Console...")
+    config()
+
 
 if __name__ == __name__:
     if os.name == "posix":
