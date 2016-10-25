@@ -112,5 +112,3 @@ if __name__ == __name__:
         main()
     else:
         winmain()
-else:
-    print("Not a lib yet.")
