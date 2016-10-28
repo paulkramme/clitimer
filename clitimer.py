@@ -29,8 +29,8 @@ import os
 
 
 silent = None
-timeinput = 0
-unit = ''
+timeinput = None
+unit = None
 
 
 def help():
