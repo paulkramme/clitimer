@@ -1,4 +1,4 @@
-#Simple Timer for your CLI!
+# Simple Timer for your CLI!
 ## Dependencies
 - Python 3  
 
